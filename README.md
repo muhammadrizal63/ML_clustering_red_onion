@@ -37,6 +37,25 @@ Membangun model Machine Learning yang dapat membantu mengidentifikasi apa saja k
 - Ini adalah proses pengecekan kolom mana saja yang terdapat value yang kosong (missing value) sehingga perlu dilakukan imputasi untuk mengisi kolom yang kosong dengan value tertentu.
 
 ### **Elbow Method**
-![Img 1](screenshot/2.png)
+![Img 2](screenshot/2.png)
+
+### **K-Means Clustering**
+![Img 3](screenshot/3.png)
+
+### **K-Means Clustering**
+![Img 3](screenshot/3.png)
+
+### **Visualisasi JointPlot Usia dengan Jumlah Hasil Panen**
+![Img 3](screenshot/4.png)
+
+### **Visualisasi JointPlot Lama Bertani dengan Jumlah Hasil Panen**
+![Img 3](screenshot/5.png)
+
+**Deskripsi Petani** <br>
+Berdasarkan persebaran statistik untuk masing-masing cluster dapat disimpulkan sebagai berikut :
+- 
+
+
+
 
 
