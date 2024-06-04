@@ -12,9 +12,9 @@ Center Of Excellence Universitas Dian Nuswantoro mengadakan penelitian dengan pe
 - Dataset bersumber dari kuesioner kepada petani bawang merah
 - Data kuesioner terkait profil petani dan kegiatan pertanian bawang merah
 ### **`Problem`**
-Bagaimana mengelompokkan petani bawang merah ke dalam dua kategori utama: pemula dan senior.
+Bagaimana mengelompokkan petani bawang merah dengan mengimplementasikan algoritma K-Means Clustering.
 ### **`Goals`**
-Mengidentifikasi dan mengelompokkan petani bawang merah ke dalam dua kategori utama yaitu pemula dan senior dengan tujuan mengembangkan program pelatihan dan dukungan yang disesuaikan untuk masing-masing segmen guna meningkatkan produktivitas dan keberlanjutan.
+Mengidentifikasi dan mengelompokkan petani bawang merah ke dalam pengelompokkan dengan tujuan mengembangkan program pelatihan dan dukungan yang disesuaikan untuk masing-masing segmen guna meningkatkan produktivitas dan keberlanjutan.
 ### **`Objective`**
 Membangun model Machine Learning yang dapat membantu mengidentifikasi apa saja karakteristik utama yang membedakan petani pemula dari petani senior sehingga dapat diberikan bantuan dan sumber daya apa yang paling dibutuhkan oleh setiap segmen oleh stakeholder terkait
 
@@ -50,7 +50,13 @@ Membangun model Machine Learning yang dapat membantu mengidentifikasi apa saja k
 
 **Deskripsi Petani** <br>
 Berdasarkan persebaran statistik untuk masing-masing cluster dapat disimpulkan sebagai berikut :
-- 
+- Dapat diketahui bahwa persebaran cluster 0 sebesar 157 petani dan cluster 1 sebesar 19 petani
+- Dari hasil visualisasi jointplot usia dengan jumlah hasil panen bahwa petani di cluster 0 dapat menghasilkan jumlah panen lebih banyak dibandingkan dengan cluster 1 dari hal ini juga dapat dilihat bahwa cluster 0 memiliki variasi usia petani yang jauh lebih banyak dan memiliki petani dengan usia mudah hingga tua dibandingkan dengan cluster 1 yang banyak didominasi petani yang tergolong berumur.
+- Dari hasil visualisasi jointplot Lama bertani dengan jumlah hasil panen bahwa  petani pada cluster 0 rata – rata telah menjadi petani selama 10 tahun, pada cluster 0 ini dapat dilihat juga bahwa anggotanya berisikan petani pemula hingga petani senior dimana petani sudah melakukan kegiatan pertanian lebih dari 30 tahun. Pada cluster 1 dapat dilihat bahwa petani telah melakukan kegiatan pertanian hingga 30 tahun lamanya sehingga dapat disimpulkan cluster 1 didominasi oleh petani pemula. Petani yang yang berusia muda atau dibawah 40 tahun memproduksi hasil panen lebih banyak apabila dibandingkan dengan petani yang berusia diatas 40 tahun yang artinya petani muda lebih produktif bila dibandingkan dengan petani yang sudah tua.
+
+**Business Recommendations**
+- Lebih memperhatikan petani di cluster 1 karena berdasarkan persebaran statistiknya cluster 1 memiliki nilai lebih rendah daripada cluster lainnya untuk setiap data pengelompokan, meskipun secara banyaknya hasil panen tidak terlalu berbeda jauh dengan cluster 0
+- Rekomendasinya adalah untuk melakukan observasi lebih lanjut oleh stakeholder terkait dan memberikan pelatihan atau sosialisasi guna meningkatkan produktivitas 
 
 
 
