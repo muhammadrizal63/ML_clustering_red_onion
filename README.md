@@ -43,10 +43,10 @@ Membangun model Machine Learning yang dapat membantu mengidentifikasi apa saja k
 ![Img 3](screenshot/3.png)
 
 ### **Visualisasi JointPlot Usia dengan Jumlah Hasil Panen**
-![Img 4](screenshot/4.png)
+![Img 4](screenshot/4.jpg)
 
 ### **Visualisasi JointPlot Lama Bertani dengan Jumlah Hasil Panen**
-![Img 5](screenshot/5.png)
+![Img 5](screenshot/5.jpg)
 
 **Deskripsi Petani** <br>
 Berdasarkan persebaran statistik untuk masing-masing cluster dapat disimpulkan sebagai berikut :
