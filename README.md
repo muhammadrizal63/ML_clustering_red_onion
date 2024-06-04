@@ -26,5 +26,17 @@ Membangun model Machine Learning yang dapat membantu mengidentifikasi apa saja k
 **Langkah 05. Handling Duplicated Data :** Melakukan pengecekan apakah terdapat data duplikat atau tidak, jika terdapat data duplikat maka dilakukan drop.<br>
 **Langkah 06. Feature Encoding :** Proses mengubah data kategorikal menjadi tipe data numerik agar dapat digunakan dalam pemrosesan data.<br>
 **Langkah 07. Hopkins Test :** Proses menentukan apakah data Anda memiliki kecenderungan alami untuk membentuk kelompok (clusters) atau jika data tersebut tersebar secara acak.<br>
+**Langkah 08. Elbow Method :** Dilakukan untuk menetukan jumlah cluster terbaik yang dapat digunakan untuk menghasilkan hasil cluster yang terbaik dan dapat memaksimalkan kualitas hasil cluster.<br>
+**Langkah 09. Machine Learning Modelling :** Proses pemodelan data menggunakan algoritma tertentu dalam kasus ini menggunakan model clustering dengan algoritma K-Means.<br>
+**Langkah 10. Interpretasi Statistic :** Proses ini membantu dalam mengevaluasi hasil clustering, menemukan pola yang menarik dengan melihat hasil cluster dengan persebaran nilai statistics
 
 ### **Exploratory Data Analysis**
+![Img 1](screenshot/1.png)
+
+`import missingno`:<br>
+- Ini adalah proses pengecekan kolom mana saja yang terdapat value yang kosong (missing value) sehingga perlu dilakukan imputasi untuk mengisi kolom yang kosong dengan value tertentu.
+
+### **Elbow Method**
+![Img 1](screenshot/2.png)
+
+
